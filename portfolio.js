@@ -1,14 +1,14 @@
 function Portfolio(){
     //instance variable
-    this.stocks;
+    this.stocks=[];
 
 
     //helper function
     function findStock(trk,list){
         //i represents the index of the trk you are looking for in this.stocks
         let i;
-        for(){
-            if(){
+        for(let s=0;s<this.stocks.length;s++){
+            if(t==this.stocks[s]){
 
             }
         }

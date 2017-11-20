@@ -15,15 +15,15 @@ function main(){
 
     //build your Portfolio
     let myport = new Portfolio();
-    myport.add();
-    myport.add();
-    myport.add();
-    myport.add();
+    myport.add(s1);
+    myport.add(s2);
+    myport.add(s3);
+    myport.add(s4);
 
     //generate a test forcast
-    let economicStorm = new Forecast(myport);
-    console.log(economicStorm);
-
+    console.log(myport.totalValue());
+console.log("============================");
+console.log(myport);
     //build prediction
 }
 
